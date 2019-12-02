@@ -1,0 +1,18 @@
+{
+    "name": "magemontreal/module-hide-default-store-code",
+    "description": "Used to hide store code for default website",
+    "require": {
+        "php": "~7.1.3||~7.2.0||~7.3.0",
+        "magento/magento-composer-installer": "*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageMontreal\\HideDefaultStoreCode\\": ""
+        }
+    }
+}
